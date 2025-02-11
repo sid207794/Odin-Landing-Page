@@ -94,10 +94,10 @@ body {
     flex-shrink: 0;
 }
 
-.hero-main.right .box {
-    height: 240px;
+.hero-main.right img {
+    height: auto;
     width: 540px;
-    background-color: #6e7276;
+    border-radius: 15px;
 }
 
 .info {
