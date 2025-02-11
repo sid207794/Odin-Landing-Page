@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.hero {
+    background-color: #1F2937;
+    font-family: "Roboto";
+    padding: 26px 210px;
+    height: 65vh;
+    flex-shrink: 0;
+}
+
+.header {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    align-items: center;
+}
+
+.header.left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header.right {
+    margin-left: auto;
+}
+
+.header.right ul {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.header.right ul li {
+    list-style: none;
+}
+
+.header.right ul li a, 
+.hero-main.left.text {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-main {
+    display: flex;
+}
+
+.hero-main.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    padding-right: 55px;
+}
+
+.hero-main.left.header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.hero-main.left.text {
+    margin-bottom: 12px;
+}
+
+.hero-main.left.button {
+    margin-top: 0;
+    min-width: 450px;
+}
+
+.hero-main.left.button button {
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-main.right{
+    flex-shrink: 0;
+}
+
+.hero-main.right .box {
+    height: 240px;
+    width: 540px;
+    background-color: #6e7276;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0;
+    font-family: "Roboto";
+    flex-shrink: 0;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.info.header {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.boxes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #64676e;
+    font-size: 18px;
+    gap: 8px;
+    width: 170px;
+}
+
+.boxes .box {
+    height: 170px;
+    width: 170px;
+    background-color: transparent;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-family: "Roboto";
+    flex-shrink: 0;
+    padding: 0px 115px;
+    margin-top: 90px;
+}
+
+.quote.box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 130px;
+    padding-right: 100px;
+}
+
+.quote.one {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-top: 0;
+    
+}
+
+.quote.two {
+    font-size: 21px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-left: auto;
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 700px;
+    
+}
