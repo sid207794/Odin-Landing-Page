@@ -159,8 +159,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 0;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 130px;
+    padding-bottom: 105px;
     padding-left: 130px;
     padding-right: 100px;
 }
@@ -182,4 +182,54 @@ body {
     padding-left: 0;
     margin-left: 700px;
     
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 45px 120px;
+    margin: 105px 210px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: transparent;
+    font-family: "Roboto";
+    flex-shrink: 0;
+}
+
+.action.left {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.action.left .head {
+    font-size: 23px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.action.left .tails {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action.button {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+.action.button button {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    padding: 7px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: solid;
 }
